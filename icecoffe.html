@@ -1,0 +1,1089 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--
+    - primary meta tags
+  -->
+  <title>Dom 211</title>
+  <meta name="title" content="Dom 211">
+  <meta name="description" content="This restaurant make by Akmirteam">
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+
+</head>
+
+<body id="top">
+
+  <!--
+    - #PRELOADER
+  -->
+
+  <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">Dom 211</p>
+  </div>
+
+
+
+
+
+  <!--
+    - #TOP BAR
+  -->
+
+  <div class="topbar">
+    <div class="container">
+
+      <address class="topbar-item">
+        <div class="icon">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">
+          улица 40 лет Дагестана 2а
+        </span>
+      </address>
+
+      <div class="separator"></div>
+
+      <div class="topbar-item item-2">
+        <div class="icon">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">Daily : 11-00  to 00-30 </span>
+      </div>
+
+      <a href="tel:+11234567890" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">+7 988 154 88 33</span>
+      </a>
+
+      <div class="separator"></div>
+
+      <a href="mailto:booking@restaurant.com" class="topbar-item link">
+        <div class="icon">
+          <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+        </div>
+
+        <span class="span">dom211edacoffee@gmail.com</span>
+      </a>
+
+    </div>
+  </div>
+
+
+
+
+
+  <!--
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logi_with_ai.png" width="150" height="50" alt="Grilli - Home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logi_with_ai.png" width="150" height="50" alt="Grilli - Home">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link hover-underline active">
+              <div class="separator"></div>
+
+              <span class="span">Дом</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="index.html#allMenu" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Меню</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">О нас</span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="index.html#ourshefsNav" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Наш </span>
+            </a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="index.html#footerNav" class="navbar-link hover-underline">
+              <div class="separator"></div>
+
+              <span class="span">Контакт</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <div class="text-center">
+          <p class="headline-1 navbar-title">
+            Посетите нас</p>
+
+          <address class="body-4">
+            улица 40 лет Дагестана 2/1
+          </address>
+
+          <p class="body-4 navbar-text">Открыта: 11-30  12-30</p>
+
+          <a href="mailto:booking@grilli.com" class="body-4 sidebar-link">dom211edacoffee@gmail.com</a>
+
+          <div class="separator"></div>
+
+          <p class="contact-label">Booking Request</p>
+
+          <a href="tel:+88123123456" class="body-1 contact-number hover-underline">
+            +88-123-123456
+          </a>
+        </div>
+
+      </nav>
+
+      <!-- <a href="#" class="btn btn-secondary">
+        <span class="text text-1">Find A Table</span>
+
+        <span class="text text-2" aria-hidden="true">Find A Table</span>
+      </a> -->
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!--
+        - #HERO
+      -->
+
+      <section class="hero text-center" aria-label="home" id="home">
+
+        <ul class="hero-slider" data-hero-slider>
+
+          <li class="slider-item active" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/hero-slider-1.jpg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">Традиционный и гигиенический</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Для любви к <br> вкусной еде
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Приходите всей семьей и почувствуйте радость от аппетитной еды
+            </p>
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/photo_2024-01-30 17.50.31.jpeg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">
+              восхитительный опыт</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Ароматы, вдохновленные <br>
+              времена года
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Приходите всей семьей и почувствуйте радость от аппетитной еды
+            </p>
+          </li>
+
+          <li class="slider-item" data-hero-slider-item>
+
+            <div class="slider-bg">
+              <img src="./assets/images/photo_2024-01-30 18.00.28.jpeg" width="1880" height="950" alt="" class="img-cover">
+            </div>
+
+            <p class="label-2 section-subtitle slider-reveal">
+              потрясающе и вкусно</p>
+
+            <h1 class="display-1 hero-title slider-reveal">
+              Где каждый вкус <br>
+              рассказывает историю
+            </h1>
+
+            <p class="body-2 hero-text slider-reveal">
+              Приходите всей семьей и почувствуйте радость от аппетитной еды
+            </p>
+          </li>
+
+        </ul>
+
+        <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+          <ion-icon name="chevron-back"></ion-icon>
+        </button>
+
+        <button class="slider-btn next" aria-label="slide to next" data-next-btn>
+          <ion-icon name="chevron-forward"></ion-icon>
+        </button>
+
+        <!-- <a href="#" class="hero-btn has-after">
+          <img src="./assets/images/hero-icon.png" width="48" height="48" alt="booking icon">
+
+          <span class="label-2 text-center span">Book A Table</span>
+        </a> -->
+
+      </section>
+
+
+
+
+
+      <!--
+        - #SERVICE
+      -->
+
+      <section class="section service bg-black-10 text-center" aria-label="service">
+        <div class="container">
+
+          <p class="section-subtitle label-2">Ароматы для королевской семьи</p>
+
+          <h2 class="headline-1 section-title">
+            Мы предлагаем высший уровень</h2>
+
+          <p class="section-text">
+            Уютное и изысканное место, где воплощается искусство кулинарии в гармонии с природой. Расположенный в самом сердце города, наш ресторан приглашает вас на неповторимое кулинарное путешествие, насыщенное ароматами и вкусами.
+          </p>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/service-1.jpg" width="285" height="336" loading="lazy" alt="Breakfast"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Завтрак</a>
+                  </h3>
+
+                  <a href="#" class="btn-text hover-underline label-2">Посмотреть меню</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/service-2.jpg" width="285" height="336" loading="lazy" alt="Appetizers"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">
+                      Блюда</a>
+                  </h3>
+
+                  <a href="#" class="btn-text hover-underline label-2">Посмотреть меню</a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
+                    <img src="./assets/images/service-3.jpg" width="285" height="336" loading="lazy" alt="Drinks"
+                      class="img-cover">
+                  </figure>
+                </a>
+
+                <div class="card-content">
+
+                  <h3 class="title-4 card-title">
+                    <a href="#">Напитки</a>
+                  </h3>
+
+                  <a href="#" class="btn-text hover-underline label-2">Посмотреть меню</a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <img src="./assets/images/shape-1.png" width="246" height="412" loading="lazy" alt="shape"
+            class="shape shape-1 move-anim">
+          <img src="./assets/images/shape-2.png" width="343" height="345" loading="lazy" alt="shape"
+            class="shape shape-2 move-anim">
+
+        </div>
+      </section>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <section class="section about text-center" aria-labelledby="about-label" id="about">
+        <div class="container">
+
+          <div class="about-content">
+
+            <p class="label-2 section-subtitle" id="about-label">Наш ресторан</p>
+
+            <h2 class="headline-1 section-title">При входе вы </h2>
+
+            <p class="section-text">
+              Встретите теплую и уютную атмосферу созданную при помощи природных материалов и легкой музыки, которая приглушенно звучит в фоне, дополняя ваше восприятие. Интерьер "Зеленого Оазиса" отличается элегантным дизайном с элементами природы: зеленые растения, натуральные деревянные отделки и мягкие освещенные тона, создающие атмосферу умиротворения и релаксации.
+            </p>
+
+            <div class="contact-label">Забронируйте через звонок</div>
+
+            <a href="tel:+804001234567" class="body-1 contact-number hover-underline">+7 988 154 88 33</a>
+
+          </div>
+
+          <figure class="about-banner">
+
+            <img src="./assets/images/photo_2024-01-30 17.50.31.jpeg" width="570" height="570" loading="lazy" alt="about banner"
+              class="w-100" data-parallax-item data-parallax-speed="1">
+
+            <div class="abs-img abs-img-1 has-before" data-parallax-item data-parallax-speed="1.75">
+              <img src="./assets/images/photo_2024-01-30 17.50.36.jpeg" width="285" height="285" loading="lazy" alt=""
+                class="w-100">
+            </div>
+
+            <div class="abs-img abs-img-2 has-before">
+              <img src="./assets/images/badge-2.png" width="133" height="134" loading="lazy" alt="">
+            </div>
+
+          </figure>
+
+          <img src="./assets/images/shape-3.png" width="197" height="194" loading="lazy" alt="" class="shape">
+
+        </div>
+      </section>
+
+
+
+
+
+      <!--
+        - #SPECIAL DISH
+      -->
+
+      <section class="special-dish text-center" aria-labelledby="dish-label">
+
+        <div class="special-dish-banner">
+          <img src="./menyu/manti 2.jpeg" width="940" height="900" loading="lazy" alt="special dish"
+            class="img-cover">
+        </div>
+
+        <div class="special-dish-content bg-black-10">
+          <div class="container">
+
+            <img src="./assets/images/badge-1.png" width="28" height="41" loading="lazy" alt="badge" class="abs-img">
+
+            <p class="section-subtitle label-2">Особое блюдо</p>
+
+            <h2 class="headline-1 section-title">Манты</h2>
+
+            <p class="section-text">
+              Манты - это восхитительное блюдо из традиционной кухни Центральной Азии, которое завоевало сердца гурманов по всему миру. Этот великолепный деликатес представляет собой тонкое тесто, искусно раскатанное и тщательно выложенное в форме небольших карманов, наполненных сочной начинкой.
+            </p>
+
+            <div class="wrapper">
+              <!-- <span class="span body-1">450 ₽</span> -->
+            </div>
+          </div>
+        </div>
+
+        <img src="./assets/images/shape-4.png" width="179" height="359" loading="lazy" alt="" class="shape shape-1">
+
+        <img src="./assets/images/shape-9.png" width="351" height="462" loading="lazy" alt="" class="shape shape-2">
+
+      </section>
+
+
+
+
+<!--
+     - #MENU
+      -->
+   <section id="drinksNav" class="food-area">
+        <div class="container">
+            <div class="title">
+                <p></p>
+      <div class="title">
+          <!-- <p>famous for good food</p> -->
+          <h4>Наше Меню</h4>
+      </div>
+            </div>
+
+
+
+            <nav class="navbar-menu" data-navbar>
+
+              <ul class="navbar-list">
+
+                <li class="navbar-item">
+                  <a href="perviybluda.html#food" class="navbar-link hover-underline">
+                    <div class="separator"></div>
+
+                    <span class="span">Первые блюда</span>
+                  </a>
+                </li>
+
+                <li class="navbar-item">
+                  <a href="fastfood.html#food" class="navbar-link hover-underline">
+                    <div class="separator"></div>
+
+                    <span class="span">Фаст Фуд</span>
+                  </a>
+                </li>
+
+                <li class="navbar-item">
+                  <a href="salat.html#food" class="navbar-link hover-underline">
+                    <div class="separator"></div>
+
+                    <span class="span">Салаты</span>
+                  </a>
+                </li>
+
+                <li class="navbar-item">
+                  <a href="narezki.html#food" class="navbar-link hover-underline">
+                    <div class="separator"></div>
+
+                    <span class="span">Нарезки</span>
+                  </a>
+                </li>
+
+                <li class="navbar-item">
+                  <a href="chay.html#food" class="navbar-link hover-underline">
+                    <div class="separator"></div>
+
+                    <span class="span">Чай</span>
+                  </a>
+                </li>
+
+                <li class="navbar-item">
+                  <a href="coffee.html#food" class="navbar-link hover-underline">
+                    <div class="separator"></div>
+
+                    <span class="span">Кофе</span>
+                  </a>
+                </li>
+                
+                <li class="navbar-item">
+                  <a href="icecoffe.html#food" class="navbar-link hover-underline">
+                    <div class="separator"></div>
+
+                    <span class="span">Холодные кофе</span>
+                  </a>
+                </li>
+
+                <li class="navbar-item">
+                  <a href="drinks.html#food" class="navbar-link hover-underline">
+                    <div class="separator"></div>
+
+                    <span class="span">Напитки</span>
+                  </a>
+                </li>
+
+                <li class="navbar-item">
+                  <a href="pizza.html#food" class="navbar-link hover-underline">
+                    <div class="separator"></div>
+
+                    <span class="span">Пиццы</span>
+                  </a>
+                </li>
+
+                <li class="navbar-item">
+                  <a href="pasta.html#food" class="navbar-link hover-underline">
+                    <div class="separator"></div>
+
+                    <span class="span">Пасты</span>
+                  </a>
+                </li>
+
+                <li class="navbar-item">
+                  <a href="ftaroybluda.html#food" class="navbar-link hover-underline">
+                    <div class="separator"></div>
+
+                    <span class="span">Вторые блюда</span>
+                  </a>
+                </li>
+
+                <li class="navbar-item">
+                  <a href="dessert.html#food" class="navbar-link hover-underline">
+                    <div class="separator"></div>
+
+                    <span class="span">Десерты</span>
+                  </a>
+                </li>
+
+              </ul>
+
+            </nav>
+
+
+
+        </div>
+    </section>
+
+
+
+    <section>
+      <div  class="foods" id="food">
+        <div class="single-food">
+            <div class="food-img">
+                <img src="menyu/icelatte.png" alt="">
+            </div>
+            <ul class="food-list">
+              <li>Айс латте : <span>200 руб</span></li>
+              <li><span></span></li>
+            </ul>
+        </div>
+        <div class="single-food">
+            <div class="food-img">
+                <img src="menyu/frapuchino.png" alt="">
+            </div>
+            <ul class="food-list">
+              <li>Фрапучино : <span>200 руб</span></li>
+          <li><span></span></li>
+            </ul>
+        </div>
+        <div class="single-food">
+            <div class="food-img">
+                <img src="menyu/frayblkokos.png" alt="">
+            </div>
+            <ul class="food-list">
+              <li>Фрайбл кокос : <span>250 руб</span></li>
+          <li><span></span></li>
+      </div>
+      <div class="single-food">
+          <div class="food-img">
+              <img src="menyu/bamblananas.png" alt="">
+          </div>
+          <ul class="food-list">
+            <li>Бамбл ананас : <span>250 руб</span></li>
+            <li><span></span></li>
+        </ul>
+      </div>
+      <div class="single-food">
+        <div class="food-img">
+            <img src="menyu/espressocola.png" alt="">
+        </div>
+        <ul class="food-list">
+          <li>Эспрессо кола : <span>250 руб</span></li>
+          <li><span></span></li>
+      </ul>
+      </div>
+
+      <div class="single-food">
+        <div class="food-img">
+            <img src="menyu/vishnya.png" alt="">
+        </div>
+        <ul class="food-list">
+          <li>Кофейная вишня : <span>200 руб</span></li>
+          <li><span></span></li>
+      </ul>
+      </div>
+
+      <div class="single-food">
+        <div class="food-img">
+            <img src="menyu/ekzotikacofe.png" alt="">
+        </div>
+        <ul class="food-list">
+          <li>Экзотика : <span>200 руб</span></li>
+          <li><span></span></li>
+      </ul>
+      </div>
+
+      </div>
+      </div>
+      </section>
+
+
+
+      <!--
+        - #TESTIMONIALS
+      -->
+
+      <section class="section testi text-center has-bg-image"
+        style="background-image: url('./assets/images/testimonial-bg.jpg')" aria-label="testimonials">
+        <div class="container">
+
+          <div class="quote">”</div>
+
+          <p class="headline-2 testi-text">
+            Я хотел поблагодарить тебя за приглашение на тот потрясающий ужин вчера вечером. Еда была
+            необыкновенный.
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+          <div class="profile">
+            <img src="./assets/images/testi-avatar.jpg" width="100" height="100" loading="lazy" alt="Sam Jhonson"
+              class="img">
+
+            <p class="label-2 profile-name">Александ Черкосов</p>
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!--
+        - #RESERVATION
+      -->
+
+      <section class="reservation">
+        <div class="container">
+
+          <div class="form reservation-form bg-black-10">
+            <form id="smsForm" action="" class="form-left">
+
+              <h2 class="headline-1 text-center">Онлайн-бронирование</h2>
+
+              <p class="form-text text-center">
+                Запрос бронирования <a href="tel: +79881548833" class="link">+7 988 154 88 33</a>
+                или заполните форму заказа
+              </p>
+
+              <div class="input-wrapper">
+                <input type="text" name="name" id="yourname" placeholder="Ваши имя" autocomplete="off" class="input-field">
+
+                <input type="tel" name="phone" id="phone" placeholder="Ваш номер" autocomplete="off" class="input-field">
+              </div>
+
+              <div class="input-wrapper">
+
+                <div class="icon-wrapper">
+                  <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+                  <select name="person" id="person" class="input-field">
+                    <option value="1-person">1 Человек</option>
+                    <option value="2-person">2 Человек</option>
+                    <option value="3-person">3 Человек</option>
+                    <option value="4-person">4 Человек</option>
+                    <option value="5-person">5 Человек</option>
+                    <option value="6-person">6 Человек</option>
+                    <option value="7-person">7 Человек</option>
+                    <option value="8-person">8 Человек</option>
+                  </select>
+
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div class="icon-wrapper">
+                  <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
+
+                  <input type="date" id="date" name="reservation-date" class="input-field">
+
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+
+                <div class="icon-wrapper">
+                  <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                  <select name="person" id="time" class="input-field">
+                    <option value="08:00am">08 : 00 am</option>
+                    <option value="09:00am">09 : 00 am</option>
+                    <option value="010:00am">10 : 00 am</option>
+                    <option value="011:00am">11 : 00 am</option>
+                    <option value="012:00am">12 : 00 am</option>
+                    <option value="01:00pm">01 : 00 pm</option>
+                    <option value="02:00pm">02 : 00 pm</option>
+                    <option value="03:00pm">03 : 00 pm</option>
+                    <option value="04:00pm">04 : 00 pm</option>
+                    <option value="05:00pm">05 : 00 pm</option>
+                    <option value="06:00pm">06 : 00 pm</option>
+                    <option value="07:00pm">07 : 00 pm</option>
+                    <option value="08:00pm">08 : 00 pm</option>
+                    <option value="09:00pm">09 : 00 pm</option>
+                    <option value="10:00pm">10 : 00 pm</option>
+                  </select>
+
+                  <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                </div>
+
+              </div>
+
+              <textarea name="message" id="message" placeholder="Cообщение" autocomplete="off" class="input-field"></textarea>
+
+              <button type="submit" id="mySendMessage"  class="btn btn-secondary">
+                <span class="text text-1">Забронировать стол</span>
+
+                <span class="text text-2" aria-hidden="true">Забронировать стол</span>
+              </button>
+
+            </form>
+
+            <script>
+              // Замените 'YOUR_BOT_TOKEN' на токен вашего бота
+
+
+const botToken = '6931928530:AAHugQGf_d7CzSMl_XllVws8WpTWqRuDIoU';
+// Замените 'YOUR_CHAT_ID' на ID вашей группы или пользователя
+const chatId = '-1002063522278';
+
+// Функция для отправки сообщения в телеграм
+async function sendTelegramMessage(message) {
+        const response = await axios.post(`https://api.telegram.org/bot${botToken}/sendMessage`, {
+            chat_id: chatId,
+            text: message
+        });
+     
+}
+
+// Пример использования функции sendTelegramMessage для отправки сообщения из формы
+// Предполагается, что у вас есть HTML форма с id "smsForm" и полем для ввода текста сообщения с id "messageInput"
+const smsForm = document.getElementById("smsForm");
+
+
+smsForm.addEventListener("submit", function(event) {
+    event.preventDefault(); // Предотвращаем стандартное действие отправки формы
+
+    const name = document.getElementById('yourname')
+    const phone = document.getElementById('phone')
+    const message = document.getElementById('message')
+    const date = document.getElementById('date')
+    const person = document.getElementById('person')
+    const time = document.getElementById('time')
+
+
+    // const messageInput = document.getElementById("messageInput");
+    const messageText ="Name: " + name.value + "\n\nPhone:" + phone.value + "\n\nMessage: " + message.value + "\n\nDate: " + date.value + "  Time: " + time.value + "\n\nPerson: " + person.value
+ 
+    sendTelegramMessage(messageText);
+});
+
+
+            </script>
+
+
+
+            <div class="form-right text-center" style="background-image: url('./assets/images/form-pattern.png')">
+
+              <h2 class="headline-1 text-center">Связаться с нами</h2>
+
+              <p class="contact-label">Запрос бронирования</p>
+
+              <a href="tel:+88123123456" class="body-1 contact-number hover-underline">+7 988 154 88 33</a>
+
+              <div class="separator"></div>
+
+              <p class="contact-label">Локация</p>
+
+              <address class="body-4">
+                Улица 40 лет Дагестана 2/1
+              </address>
+
+              <p class="contact-label">Время обеда</p>
+
+              <p class="body-4">
+                С понедельника по воскресенье <br>
+                11.00 am - 2.30pm
+              </p>
+
+              <p class="contact-label">
+                Время ужина</p>
+
+              <p class="body-4">
+                С понедельника по воскресенье <br>
+                17.00 pm - 19.30pm
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!--
+        - #FEATURES
+      -->
+
+      <section id="ourshefsNav" class="section features text-center" aria-label="features">
+        <div class="container">
+
+          <p class="section-subtitle label-2">Почему выбрали нас</p>
+
+          <h2 class="headline-1 section-title">Наша сила</h2>
+
+          <ul class="grid-list">
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-1.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Гигиеничная еда</h3>
+
+                <p class="label-1 card-text">Чистота продуктов: Пищевые продукты должны быть свежими, чистыми и храниться при правильной температуре, чтобы предотвратить размножение бактерий</p>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-2.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">
+                  Свежая среда</h3>
+
+                <p class="label-1 card-text">Чистоты воздуха, воды или окружающей среды в целом. Он также может относиться к обстановке, которая воспринимается как свежая, чистая и приятная</p>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-3.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">
+                  Опытные повара</h3>
+
+                <p class="label-1 card-text">Это квалифицированные специалисты в области кулинарии, которые имеют обширный опыт работы и знания о приготовлении разнообразных блюд</p>
+
+              </div>
+            </li>
+
+            <li class="feature-item">
+              <div class="feature-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/features-icon-4.png" width="100" height="80" loading="lazy" alt="icon">
+                </div>
+
+                <h3 class="title-2 card-title">Мероприятие и вечеринка</h3>
+
+                <p class="label-1 card-text">Вечеринка - это тип мероприятия, которое обычно проводится в неформальной обстановке с целью развлечения и социализации.</p>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <img src="./assets/images/shape-7.png" width="208" height="178" loading="lazy" alt="shape"
+            class="shape shape-1">
+
+          <img src="./assets/images/shape-8.png" width="120" height="115" loading="lazy" alt="shape"
+            class="shape shape-2">
+
+        </div>
+      </section>
+
+
+
+
+
+      <!--
+        - #EVENT
+      -->
+
+
+
+
+
+
+  <!--
+    - #FOOTER
+  -->
+
+  <footer id="footerNav" class="footer section has-bg-image text-center"
+    style="background-image: url('./assets/images/footer-bg.jpg')">
+    <div class="container">
+
+      <div class="footer-top grid-list">
+
+        <div class="footer-brand has-before has-after">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.svg" width="160" height="50" loading="lazy" alt="grilli home">
+          </a>
+
+          <address class="body-4">
+            Улица 40 лет Дагестана 2/1
+          </address>
+
+          <a href="mailto:booking@grilli.com" class="body-4 contact-link">dom211edacoffee@gmail.com</a>
+
+          <a href="tel:+88123123456" class="body-4 contact-link">
+            Запрос бронирования : +7 988 154 88 33</a>
+
+          <p class="body-4">
+            Открыта : 11:00 am - 00:30 pm
+          </p>
+
+          <div class="wrapper">
+            <div class="separator"></div>
+            <div class="separator"></div>
+            <div class="separator"></div>
+          </div>
+
+          <form action="" class="input-wrapper">
+            <div class="icon-wrapper">
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+              <input type="email" name="email_address" placeholder="Ваше email" autocomplete="off" class="input-field">
+            </div>
+
+            <button type="submit" class="btn btn-secondary">
+              <span class="text text-1">Отправить</span>
+
+              <span class="text text-2" aria-hidden="true">Отправить</span>
+            </button>
+          </form>
+
+        </div>
+
+      <div class="footer-bottom">
+
+        <p class="copyright">
+          &copy; Akmir team  <a href="https://akmirteam.uz/"
+            target="_blank" class="link">Akmir</a>
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!--
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</body>
+
+</html>
